@@ -1,0 +1,33 @@
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+  git config --global user.email "murli.becs@gmail.com"
+  git config --global user.name "MurliCSE"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+
+Quick setup — if you’ve done this kind of thing before
+https://github.com/MurliCSE/MurliCSE-Learning.git
+
+To create a new repository on the command line
+echo "# MurliCSE-Learning" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MurliCSE/MurliCSE-Learning.git
+git push -u origin main
+
+To push an existing repository from the command line
+git remote add origin https://github.com/MurliCSE/MurliCSE-Learning.git
+git branch -M main
+git push -u origin main
+
+
+
